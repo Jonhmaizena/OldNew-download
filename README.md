@@ -9,23 +9,23 @@
 | Android | APK |
 |---|---|
 | 4.1 – 4.4 | `OldNew-…-Android4.1-4.4.apk` |
-| 5.0 – 6.0 | `OldNew-…-Android5-6-arm64-v8a.apk` |
-| 7.0 – 8.1 | `OldNew-…-Android7-8-arm64-v8a.apk` |
+| 5.0 – 6.0 | `OldNew-…-Android5-6.apk` |
+| 7.0 – 8.1 | `OldNew-…-Android7-8.apk` |
 | 9 or newer · ou mais novo · o más nuevo | `OldNew-…-Android9+-arm64-v8a.apk` |
 
 Where to see your version · Onde ver a versão · Dónde ver la versión: Settings › About phone · Configurações › Sobre o telefone · Ajustes › Acerca del teléfono.
 
-**Android 5 or newer: choose your processor · escolha o processador · elige el procesador**
+**Android 9 or newer: choose your processor · escolha o processador · elige el procesador**
 
-From Android 5 on, OldNew carries its own web engine (Gecko, the same as Firefox), so there is one APK per processor type (about 90–120 MB each) · Do Android 5 em diante, o OldNew traz um motor de páginas próprio (Gecko, o mesmo do Firefox), então há um APK por tipo de processador (cerca de 90–120 MB cada) · Desde Android 5, OldNew trae su propio motor web (Gecko, el mismo de Firefox), así que hay un APK por tipo de procesador (unos 90–120 MB cada uno):
+OldNew carries its own web engine (Gecko, the same as Firefox), so the files are large (about 90–120 MB). For Android 5 to 8 there is a single APK that works on every phone. For Android 9+ there is one per processor · O OldNew traz um motor de páginas próprio (Gecko, o mesmo do Firefox), então os arquivos são grandes (cerca de 90–120 MB). Para Android 5 a 8 há um APK só, que funciona em qualquer celular. Para Android 9+ há um por processador · OldNew trae su propio motor web (Gecko, el mismo de Firefox), así que los archivos son grandes (unos 90–120 MB). Para Android 5 a 8 hay un solo APK que funciona en cualquier teléfono. Para Android 9+ hay uno por procesador:
 
 | File ends with · O arquivo termina com · El archivo termina en | Phone · Celular · Teléfono |
 |---|---|
-| `-arm64-v8a.apk` | **Most phones** (64-bit, from about 2015 on) · **A maioria dos celulares** (64 bits, de 2015 em diante, mais ou menos) · **La mayoría de los teléfonos** (64 bits, desde 2015 aprox.) |
-| `-armeabi-v7a.apk` | Older or very simple 32-bit phones · Celulares mais antigos ou bem simples, de 32 bits · Teléfonos más antiguos o muy sencillos, de 32 bits |
+| `-arm64-v8a.apk` | **Most phones** (64-bit) · **A maioria dos celulares** (64 bits) · **La mayoría de los teléfonos** (64 bits) |
+| `-armeabi-v7a.apk` | 32-bit phones · Celulares de 32 bits · Teléfonos de 32 bits |
 | `-x86_64.apk` | Some Intel tablets and Chromebooks · Alguns tablets Intel e Chromebooks · Algunas tabletas Intel y Chromebooks |
 
-Not sure? Try `arm64-v8a`; if Android says the app is not compatible, use `armeabi-v7a`. After that, OldNew updates itself with the right file · Na dúvida, baixe o `arm64-v8a`; se o Android disser que o app não é compatível, use o `armeabi-v7a`. Depois disso, o OldNew se atualiza sozinho com o arquivo certo · ¿Dudas? Prueba `arm64-v8a`; si Android dice que la app no es compatible, usa `armeabi-v7a`. Después, OldNew se actualiza solo con el archivo correcto.
+Not sure? Try `arm64-v8a`; if Android says the app is not compatible or "App not installed", use `armeabi-v7a`. After that, OldNew updates itself with the right file · Na dúvida, baixe o `arm64-v8a`; se o Android disser que o app não é compatível ou "App não instalado", use o `armeabi-v7a`. Depois disso, o OldNew se atualiza sozinho com o arquivo certo · ¿Dudas? Prueba `arm64-v8a`; si Android dice que la app no es compatible o "App no instalada", usa `armeabi-v7a`. Después, OldNew se actualiza solo con el archivo correcto.
 
 To install, allow "Install unknown apps" (or "Unknown sources") for your browser when Android asks.
 
