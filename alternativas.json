@@ -1,0 +1,323 @@
+{
+  "versao_lista": "2026-10-25",
+  "observacao": "Versões conferidas no F-Droid em 25/10/2026. Atualizada mensalmente.",
+  "sites": [
+    {
+      "id": "youtube",
+      "nome": "YouTube",
+      "url": "https://m.youtube.com/",
+      "min_android": 21,
+      "ram_min_mb": 600,
+      "requer": [
+        "fetch",
+        "async",
+        "optional_chaining"
+      ],
+      "ua_moderno": true,
+      "alternativas": [
+        "newpipe",
+        "fulguris",
+        "fennec"
+      ]
+    },
+    {
+      "id": "x",
+      "nome": "X",
+      "url": "https://x.com/",
+      "min_android": 21,
+      "ram_min_mb": 900,
+      "requer": [
+        "fetch",
+        "async",
+        "optional_chaining"
+      ],
+      "ua_moderno": true,
+      "alternativas": [
+        "squawker",
+        "nora",
+        "fennec"
+      ]
+    },
+    {
+      "id": "instagram",
+      "nome": "Instagram",
+      "url": "https://www.instagram.com/",
+      "min_android": 21,
+      "ram_min_mb": 900,
+      "requer": [
+        "fetch",
+        "async",
+        "optional_chaining"
+      ],
+      "ua_moderno": true,
+      "alternativas": [
+        "nora",
+        "fennec"
+      ]
+    },
+    {
+      "id": "facebook",
+      "nome": "Facebook",
+      "url": "https://m.facebook.com/",
+      "min_android": 19,
+      "ram_min_mb": 600,
+      "requer": [
+        "fetch",
+        "async"
+      ],
+      "ua_moderno": true,
+      "alternativas": [
+        "nora",
+        "fulguris",
+        "fennec"
+      ]
+    },
+    {
+      "id": "reddit",
+      "nome": "Reddit",
+      "url": "https://old.reddit.com/",
+      "min_android": 0,
+      "ram_min_mb": 0,
+      "requer": [],
+      "ua_moderno": false,
+      "alternativas": [
+        "redreader",
+        "fulguris",
+        "lightning"
+      ]
+    },
+    {
+      "id": "tiktok",
+      "nome": "TikTok",
+      "url": "https://www.tiktok.com/",
+      "min_android": 21,
+      "ram_min_mb": 1400,
+      "requer": [
+        "fetch",
+        "async",
+        "optional_chaining"
+      ],
+      "ua_moderno": true,
+      "alternativas": [
+        "nora",
+        "fennec"
+      ]
+    }
+  ],
+  "apps": [
+    {
+      "id": "newpipe",
+      "nome": "NewPipe",
+      "pacote": "org.schabi.newpipe",
+      "descricao": "YouTube leve, sem anúncios, com download e reprodução em segundo plano.",
+      "descricao_en": "Lightweight YouTube: no ads, with downloads and background playback.",
+      "descricao_es": "YouTube liviano, sin anuncios, con descargas y reproducción en segundo plano.",
+      "pagina": "https://f-droid.org/packages/org.schabi.newpipe/",
+      "builds": [
+        {
+          "versao": "0.29.1",
+          "codigo": 1015,
+          "minSdk": 23,
+          "abi": "universal",
+          "urls": [
+            "https://f-droid.org/repo/org.schabi.newpipe_1015.apk"
+          ]
+        },
+        {
+          "versao": "0.28.8",
+          "codigo": 1013,
+          "minSdk": 21,
+          "abi": "universal",
+          "urls": [
+            "https://f-droid.org/repo/org.schabi.newpipe_1013.apk",
+            "https://f-droid.org/archive/org.schabi.newpipe_1013.apk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redreader",
+      "nome": "RedReader",
+      "pacote": "org.quantumbadger.redreader",
+      "descricao": "Cliente do Reddit leve e rápido, com modo noturno e cache.",
+      "descricao_en": "Light and fast Reddit client, with night mode and cache.",
+      "descricao_es": "Cliente de Reddit liviano y rápido, con modo nocturno y caché.",
+      "pagina": "https://f-droid.org/packages/org.quantumbadger.redreader/",
+      "builds": [
+        {
+          "versao": "1.27",
+          "codigo": 119,
+          "minSdk": 21,
+          "abi": "universal",
+          "urls": [
+            "https://f-droid.org/repo/org.quantumbadger.redreader_119.apk"
+          ]
+        },
+        {
+          "versao": "1.23.1",
+          "codigo": 112,
+          "minSdk": 16,
+          "abi": "universal",
+          "urls": [
+            "https://f-droid.org/archive/org.quantumbadger.redreader_112.apk",
+            "https://f-droid.org/repo/org.quantumbadger.redreader_112.apk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "squawker",
+      "nome": "Squawker",
+      "pacote": "org.ca.squawker",
+      "descricao": "Leitor do X (Twitter) sem conta, sem anúncios e sem rastreamento.",
+      "descricao_en": "X (Twitter) reader with no account, no ads and no tracking.",
+      "descricao_es": "Lector de X (Twitter) sin cuenta, sin anuncios y sin rastreo.",
+      "pagina": "https://f-droid.org/packages/org.ca.squawker/",
+      "builds": [
+        {
+          "versao": "3.8.21",
+          "codigo": 300018603,
+          "minSdk": 24,
+          "abi": "arm64-v8a",
+          "urls": [
+            "https://f-droid.org/repo/org.ca.squawker_300018603.apk"
+          ]
+        },
+        {
+          "versao": "3.8.21",
+          "codigo": 300018602,
+          "minSdk": 24,
+          "abi": "armeabi-v7a",
+          "urls": [
+            "https://f-droid.org/repo/org.ca.squawker_300018602.apk"
+          ]
+        },
+        {
+          "versao": "3.8.21",
+          "codigo": 300018601,
+          "minSdk": 24,
+          "abi": "x86_64",
+          "urls": [
+            "https://f-droid.org/repo/org.ca.squawker_300018601.apk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nora",
+      "nome": "Nora",
+      "pacote": "jp.nonbili.nora",
+      "descricao": "Navegador de redes sociais: Facebook, Instagram, X, Reddit, Threads e TikTok num só app.",
+      "descricao_en": "Social network browser: Facebook, Instagram, X, Reddit, Threads and TikTok in one app.",
+      "descricao_es": "Navegador de redes sociales: Facebook, Instagram, X, Reddit, Threads y TikTok en una sola app.",
+      "pagina": "https://f-droid.org/packages/jp.nonbili.nora/",
+      "builds": [
+        {
+          "versao": "0.8.11",
+          "codigo": 9504,
+          "minSdk": 24,
+          "abi": "arm64-v8a",
+          "urls": [
+            "https://f-droid.org/repo/jp.nonbili.nora_9504.apk"
+          ]
+        },
+        {
+          "versao": "0.8.11",
+          "codigo": 9503,
+          "minSdk": 24,
+          "abi": "armeabi-v7a",
+          "urls": [
+            "https://f-droid.org/repo/jp.nonbili.nora_9503.apk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fulguris",
+      "nome": "Fulguris",
+      "pacote": "net.slions.fulguris.full.fdroid",
+      "descricao": "Navegador leve com abas, bloqueio de anúncios e modo leitura.",
+      "descricao_en": "Light browser with tabs, ad blocking and reader mode.",
+      "descricao_es": "Navegador liviano con pestañas, bloqueo de anuncios y modo lectura.",
+      "pagina": "https://f-droid.org/packages/net.slions.fulguris.full.fdroid/",
+      "builds": [
+        {
+          "versao": "2.1.1",
+          "codigo": 264,
+          "minSdk": 21,
+          "abi": "universal",
+          "urls": [
+            "https://f-droid.org/repo/net.slions.fulguris.full.fdroid_264.apk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lightning",
+      "nome": "Lightning",
+      "pacote": "acr.browser.lightning",
+      "descricao": "Navegador muito leve. Sem atualizações desde 2019: sites modernos podem não abrir.",
+      "descricao_en": "Very light browser. No updates since 2019: modern sites may not open.",
+      "descricao_es": "Navegador muy liviano. Sin actualizaciones desde 2019: los sitios modernos pueden no abrir.",
+      "pagina": "https://f-droid.org/packages/acr.browser.lightning/",
+      "builds": [
+        {
+          "versao": "5.1.0",
+          "codigo": 101,
+          "minSdk": 19,
+          "abi": "universal",
+          "urls": [
+            "https://f-droid.org/repo/acr.browser.lightning_101.apk"
+          ]
+        },
+        {
+          "versao": "4.5.1",
+          "codigo": 96,
+          "minSdk": 14,
+          "abi": "universal",
+          "urls": [
+            "https://f-droid.org/repo/acr.browser.lightning_96.apk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fennec",
+      "nome": "Fennec (Firefox)",
+      "pacote": "org.mozilla.fennec_fdroid",
+      "descricao": "Firefox completo e atualizado, com motor próprio (não depende do WebView do sistema).",
+      "descricao_en": "Full, up-to-date Firefox with its own engine (doesn't depend on the system WebView).",
+      "descricao_es": "Firefox completo y actualizado, con motor propio (no depende del WebView del sistema).",
+      "pagina": "https://f-droid.org/packages/org.mozilla.fennec_fdroid/",
+      "builds": [
+        {
+          "versao": "158.0.2",
+          "codigo": 1580220,
+          "minSdk": 26,
+          "abi": "arm64-v8a",
+          "urls": [
+            "https://f-droid.org/repo/org.mozilla.fennec_fdroid_1580220.apk"
+          ]
+        },
+        {
+          "versao": "158.0.2",
+          "codigo": 1580200,
+          "minSdk": 26,
+          "abi": "armeabi-v7a",
+          "urls": [
+            "https://f-droid.org/repo/org.mozilla.fennec_fdroid_1580200.apk"
+          ]
+        },
+        {
+          "versao": "158.0.0",
+          "codigo": 1580010,
+          "minSdk": 26,
+          "abi": "x86_64",
+          "urls": [
+            "https://f-droid.org/repo/org.mozilla.fennec_fdroid_1580010.apk"
+          ]
+        }
+      ]
+    }
+  ]
+}
